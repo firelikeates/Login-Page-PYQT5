@@ -86,7 +86,6 @@ class LoginPage(QtWidgets.QWidget):
                     for i in kitaplık:
 
                         if(self.kullanıc_adı_input.text()==i[0] and self.parola_input.text()==i[1]):
-                            print(31)
                             self.bilgilendirme_text.setText("Giriş Yapıldı!")
                             self.bilgilendirme_text.setStyleSheet("margin-top:20px;font-size:15px;color:green")
                         else:
@@ -97,7 +96,6 @@ class LoginPage(QtWidgets.QWidget):
                     for i in kitaplık:
 
                         if(self.kullanıc_adı_input.text()==i[0] and self.parola_input.text()==i[1]):
-                            print(31)
                             self.bilgilendirme_text.setText("Giriş Yapıldı!")
                             self.bilgilendirme_text.setStyleSheet("margin-top:20px;font-size:15px;color:green")
                         else:
